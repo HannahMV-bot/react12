@@ -5,19 +5,19 @@ export const Content = () => {
   const [productos, setProductos] = useState([
     {
       id: 1,
-      nombre: "Dorito con forma de el sombrero del papa",
-      categoria: "Cosas inutiles",
-      precio: 15000000,
+      nombre: "Gorra Acceno Negro Clemont",
+      categoria: "Gorra",
+      precio: 300000,
       stock: 1,
-      imagen: "/react/images/dorito.jpg",
+      imagen: "/react12/images/gorra.jpg",
     },
     {
       id: 2,
-      nombre: "Gorila macizo",
-      categoria: "Animales exoticos",
-      precio: 2490000,
+      nombre: "Camiseta Masculina Torrente Negro Clemont",
+      categoria: "Camisetas",
+      precio: 390000,
       stock:69,
-      imagen: "/react/images/gorila.jpg",
+      imagen: "/react12/images/Camiseta.jpg",
     },
   ]);
 

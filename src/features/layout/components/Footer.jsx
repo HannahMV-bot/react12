@@ -8,7 +8,7 @@ export const Footer = () => {
 
       
         <span className="text-muted">
-          © 2026 - Carrito de Drogas
+          © 2026 - Carrito de Compras
         </span>
 
        
@@ -17,14 +17,14 @@ export const Footer = () => {
             to="/ayuda" 
             className="text-decoration-none text-muted me-3"
           >
-            No hay Ayuda
+            Ayuda
           </NavLink>
 
           <NavLink 
             to="/politicas" 
             className="text-decoration-none text-muted"
           >
-           No hay Políticas
+           Políticas
           </NavLink>
         </div>
 

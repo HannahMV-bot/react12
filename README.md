@@ -1,18 +1,16 @@
 # 🛒 Carrito de Compras - React + Vite
 
-Proyecto desarrollado con React y Vite como práctica de:
-
--   Componentes
--   Props
--   useState
--   React Router
--   Bootstrap
--   Manejo de imágenes en Vite
--   Deploy en GitHub Pages
+Proyecto desarrollado como práctica académica utilizando React y Vite.
 
 ------------------------------------------------------------------------
 
-## 🚀 Tecnologías usadas
+## 👩‍💻 Autora
+
+Mara Hannah Molina Valencia
+
+------------------------------------------------------------------------
+
+## 🚀 Tecnologías utilizadas
 
 -   React
 -   Vite
@@ -34,11 +32,11 @@ public/ └── images/
 
 ## 📸 Funcionalidades
 
-✔ Agregar productos\
+✔ Agregar productos dinámicamente\
 ✔ Eliminar productos\
-✔ Mostrar imágenes dinámicamente\
-✔ Uso de Props con componente Avatar\
-✔ Manejo de rutas con React Router
+✔ Mostrar imágenes desde la carpeta public\
+✔ Uso de Props en componentes\
+✔ Navegación con React Router
 
 ------------------------------------------------------------------------
 
@@ -48,15 +46,16 @@ Las imágenes ubicadas en `public/images` se acceden usando:
 
 `${import.meta.env.BASE_URL}images/nombre.jpg`
 
-Esto permite que funcionen correctamente en GitHub Pages.
+Esto permite que funcionen correctamente en desarrollo y en GitHub
+Pages.
 
 ------------------------------------------------------------------------
 
 ## ⚙️ Instalación
 
-Clonar repositorio:
+Clonar el repositorio:
 
-git clone https://github.com/TU-USUARIO/react.git
+git clone https://github.com/HannahMV-bot/react12.git
 
 Entrar al proyecto:
 
@@ -84,12 +83,7 @@ npm run deploy
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Autor
+## 📌 Descripción
 
-Sebastian Madrigal
-
-------------------------------------------------------------------------
-
-## 📌 Notas
-
-Proyecto académico para práctica de React.
+Este proyecto fue realizado como práctica para reforzar conocimientos en
+desarrollo frontend con React, manejo de estado, props y rutas.

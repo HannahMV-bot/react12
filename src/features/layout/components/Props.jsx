@@ -1,32 +1,23 @@
 import Avatar from "./Avatar"
-
+import Dwayne from "/images/La_roc.jpg"
+import Willie from "/images/willie_colon.jpg"
+import Robert from "/images/450_1000.jpg"
 const Props = () => {
-  const base = import.meta.env.BASE_URL
-
   return (
     <div className="container text-center mt-5">
       <h1 className="mb-4">Props React</h1>
 
       <div className="row">
         <div className="col">
-          <Avatar 
-            nombre="Adolf Hitler" 
-            imagen={`${base}images/hitler.jpg`} 
-          />
+          <Avatar nombre="Dwayne Douglas Johnson" imagen={Dwayne}/>
         </div>
 
         <div className="col">
-          <Avatar 
-            nombre="Kim Jong Un" 
-            imagen={`${base}images/kim.jpg`} 
-          />
+          <Avatar nombre="Willie Colon" imagen={Willie} />
         </div>
 
         <div className="col">
-          <Avatar 
-            nombre="Vladimir Putin" 
-            imagen={`${base}images/putin.jpg`} 
-          />
+          <Avatar nombre="Robert Downey Jr." imagen={Robert} />
         </div>
       </div>
     </div>
