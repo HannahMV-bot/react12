@@ -6,7 +6,7 @@ Proyecto desarrollado como práctica académica utilizando React y Vite.
 
 ## 👩‍💻 Autora
 
-Mara Hannah Molina Valencia
+Hannah Molina Valencia
 
 ------------------------------------------------------------------------
 
